@@ -34,7 +34,7 @@ COPY --chown=algorithm:algorithm process.py postprocessing.py preprocessing.py /
 ENTRYPOINT ["bash", "entrypoint.sh"]
 
 ## ALGORITHM LABELS: these labels are required
-LABEL nl.diagnijmegen.rse.algorithm.name=pssn
+LABEL nl.diagnijmegen.rse.algorithm.name=noduledetection
 # These labels are required and describe what kind of hardware your algorithm requires to run for grand-challenge.
 LABEL nl.diagnijmegen.rse.algorithm.hardware.cpu.count=2
 LABEL nl.diagnijmegen.rse.algorithm.hardware.cpu.capabilities=()
